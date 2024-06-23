@@ -1,3 +1,5 @@
+<p align="center"> <img src="https://raw.githubusercontent.com/joewilliams007/WAxMA/master/waxma.jpg" /> </p>
+
 # WAxMA
 WAxMA is a bridge between Whatsapp and Matrix groups.
 
