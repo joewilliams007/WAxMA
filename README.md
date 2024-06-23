@@ -1,6 +1,10 @@
 # WAxMA
 WAxMA is a bridge between Whatsapp and Matrix groups.
 
+## Features
+- [x] messages synced
+- [x] files/media synced
+
 ### installation
 1. install mariadb/msyql-server
 2. login to database and paste the script from table.txt into mysql
@@ -10,3 +14,7 @@ WAxMA is a bridge between Whatsapp and Matrix groups.
 > note: you need to run two proccesses.
 1. npm start (or node -r esm matrix)
 2. node whatsapp.js (then scan qr code with whatsapp link devices)
+
+### requirements
+- mysql-server or mariadb-server installed & set up
+- chromium or chrome installed
