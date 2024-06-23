@@ -11,9 +11,12 @@ WAxMA is a bridge between Whatsapp and Matrix groups.
 3. fill out the rest of the config.js
 
 ### running
-> note: you need to run two proccesses.
-1. npm start (or node -r esm matrix)
-2. node whatsapp.js (then scan qr code with whatsapp link devices)
+note: you need to run two proccesses.
+1.
+> npm start (or node -r esm matrix)
+2.
+> node whatsapp.js
+(then scan qr code with whatsapp link devices)
 
 ### requirements
 - mysql-server or mariadb-server installed & set up
