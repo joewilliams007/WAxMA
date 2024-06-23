@@ -1,0 +1,25 @@
+DROP DATABASE db_bridge;
+CREATE DATABASE db_bridge;
+ALTER DATABASE db_bridge CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
+USE db_bridge;
+
+CREATE TABLE Messages (
+message_id INT NOT NULL AUTO_INCREMENT,
+pushname varchar(255),
+message TEXT,
+type varchar(255),
+hasMedia boolean,
+filename varchar(255),
+mimeType varchar(255),
+token varchar(1023),
+timestamp int,
+source varchar(255),
+synced boolean DEFAULT false,
+deviceType varchar(255),
+hasQuotedMsg boolean,
+quotedMsg TEXT,
+quotedMsgPushname varchar(255),
+isGif boolean DEFAULT false,
+isForwarded boolean DEFAULT false,
+PRIMARY KEY ( message_id )
+);
