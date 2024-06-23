@@ -12,9 +12,7 @@ WAxMA is a bridge between Whatsapp and Matrix groups.
 
 ### running
 note: you need to run two proccesses.
-1.
 > npm start (or node -r esm matrix)
-2.
 > node whatsapp.js
 (then scan qr code with whatsapp link devices)
 
